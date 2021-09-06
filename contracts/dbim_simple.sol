@@ -15,9 +15,6 @@ contract dbim_basic is Ownable {
     IPFSHash = _IPFSHash;
     }
 
-    function getIPFSHash() external view returns(string){
-      return IPFSHash;
-    }
 
     function setMyUint(uint _myUint) public  {
         myUint = _myUint;
